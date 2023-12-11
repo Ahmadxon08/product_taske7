@@ -14,9 +14,8 @@
   color: white !important;
 }
 
-.dark-mode {
+.dark * {
   background-color: black;
-  color: #fff;
 }
 
 * {
@@ -618,6 +617,25 @@ body main .table_hero .table_content .table_boxs .table_box .table_box:hover * {
   background: #02897a;
   color: #fff;
 }
+body main .table_hero .table_content .table_boxs .table_box .table_box:hover * h1 {
+  color: white;
+}
+body main .table_hero .table_content .table_boxs .table_box .table_box:hover * .zerro h1 {
+  color: white;
+}
+body main .table_hero .table_content .table_boxs .table_box .table_box:hover * .dollor h1,
+body main .table_hero .table_content .table_boxs .table_box p {
+  color: white;
+}
+body main .table_hero .table_content .table_boxs .table_box .table_box:hover * .texts p {
+  color: white;
+}
+body main .table_hero .table_content .table_boxs .table_box .table_box:hover span {
+  color: white;
+}
+body main .table_hero .table_content .table_boxs .table_box .table_box:hover .box_btn a {
+  color: white;
+}
 body main .table_hero .table_content .table_boxs .table_box h1 {
   color: #22343d;
   font-family: Poppins;
@@ -1035,5 +1053,36 @@ body #backtop {
   .work_img img {
     max-width: 280px;
     margin-right: 500px;
+  }
+  .product-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .product-content .product_head h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-right: 100px;
+  }
+  .product-content .product_boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 auto;
+    width: 930px;
+    padding-right: 155px;
+  }
+  .product-content .process_boxs :nth-child(3) {
+    margin-right: 60px;
+  }
+  .product-content .product_btn {
+    display: flex;
+    align-items: center;
+    margin-right: 190px;
   }
 }/*# sourceMappingURL=style.css.map */
