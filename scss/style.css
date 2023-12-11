@@ -611,30 +611,12 @@ body main .table_hero .table_content .table_boxs .table_box {
   height: 456px;
   border-radius: 8px;
   background: #fff;
+  cursor: pointer;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
 }
 body main .table_hero .table_content .table_boxs .table_box .table_box:hover * {
   background: #02897a;
   color: #fff;
-}
-body main .table_hero .table_content .table_boxs .table_box .table_box:hover * h1 {
-  color: white;
-}
-body main .table_hero .table_content .table_boxs .table_box .table_box:hover * .zerro h1 {
-  color: white;
-}
-body main .table_hero .table_content .table_boxs .table_box .table_box:hover * .dollor h1,
-body main .table_hero .table_content .table_boxs .table_box p {
-  color: white;
-}
-body main .table_hero .table_content .table_boxs .table_box .table_box:hover * .texts p {
-  color: white;
-}
-body main .table_hero .table_content .table_boxs .table_box .table_box:hover span {
-  color: white;
-}
-body main .table_hero .table_content .table_boxs .table_box .table_box:hover .box_btn a {
-  color: white;
 }
 body main .table_hero .table_content .table_boxs .table_box h1 {
   color: #22343d;
@@ -725,6 +707,25 @@ body main .table_hero .table_content .table_boxs .table_box .box_btn a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+body main .table_hero .table_content .table_boxs .table_boxs:hover * h1 {
+  color: white;
+}
+body main .table_hero .table_content .table_boxs .table_box:hover * .zerro h1 {
+  color: white;
+}
+body main .table_hero .table_content .table_boxs .table_box:hover * .dollor h1,
+body main .table_hero .table_content .table_boxs p {
+  color: white;
+}
+body main .table_hero .table_content .table_boxs .table_box:hover * .texts p {
+  color: white;
+}
+body main .table_hero .table_content .table_boxs .table_box:hover span {
+  color: white;
+}
+body main .table_hero .table_content .table_boxs .table_box:hover .box_btn a {
+  color: white;
 }
 body main .table_hero .table_content .table_boxs .table_box:hover * {
   background: #02897a;

@@ -635,30 +635,13 @@ body {
             height: 456px;
             border-radius: 8px;
             background: #fff;
+            cursor: pointer;
             box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
             .table_box:hover * {
               background: #02897a;
               color: #fff;
             }
-            .table_box:hover * h1 {
-              color: white;
-            }
-            .table_box:hover * .zerro h1 {
-              color: white;
-            }
-            .table_box:hover * .dollor h1,
-            p {
-              color: white;
-            }
-            .table_box:hover * .texts p {
-              color: white;
-            }
-            .table_box:hover span {
-              color: white;
-            }
-            .table_box:hover .box_btn a {
-              color: white;
-            }
+
             h1 {
               color: #22343d;
               font-family: Poppins;
@@ -752,6 +735,25 @@ body {
                 line-height: normal;
               }
             }
+          }
+          .table_boxs:hover * h1 {
+            color: white;
+          }
+          .table_box:hover * .zerro h1 {
+            color: white;
+          }
+          .table_box:hover * .dollor h1,
+          p {
+            color: white;
+          }
+          .table_box:hover * .texts p {
+            color: white;
+          }
+          .table_box:hover span {
+            color: white;
+          }
+          .table_box:hover .box_btn a {
+            color: white;
           }
           .table_box:hover * {
             background: #02897a;
